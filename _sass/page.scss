@@ -360,7 +360,7 @@ $button-size: 1.5rem;
     color: $black;
   }
   &:hover {
-    @include scale(1.1);
+  	@include translate(3px, 0px);
   }
   &:active {
     @include translate(0, 2px);
