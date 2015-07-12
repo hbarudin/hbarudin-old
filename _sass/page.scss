@@ -79,12 +79,15 @@ body {
 			white-space: nowrap;
 			border-bottom: 0 solid transparent;
 		}
-		a { 
+		a {
 			display: block;
 			padding: 10px 0;
 			decoration: none;
 			border-bottom: 0 solid transparent;
 			@include transition(all .2s);
+			&:hover {
+				color: #608ebf;
+			}
 			@media #{$small} {
 				display: inline;
 				padding: 0;
@@ -352,18 +355,25 @@ $button-size: 1.5rem;
 
 /* Default social media links in author sidebar */
 .author-social {
-  display: block;
+  display: inline-block;
   margin-bottom: 5px;
-  @include font-rem(14);
+  @include font-rem(24);
+  color: $black;
+  .fa {
+		margin-right: 5px;
+	}
+}
+
+.author-social-inline {
+  display: inline-block;
+  @include font-rem(44);
   color: $black;
   &:visited {
     color: $black;
   }
   &:hover {
-  	@include translate(3px, 0px);
-  }
-  &:active {
-    @include translate(0, 2px);
+  	color: #608ebf;
+		@include transition(0.1s ease-in-out);
   }
   .fa {
 		margin-right: 5px;
@@ -385,7 +395,7 @@ $button-size: 1.5rem;
 		h3,
 		p,
 		.author-social {
-			display: block;
+			display: inline-block;
 			max-width: 125px;
 		}
 		h3 {
