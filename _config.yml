@@ -30,7 +30,7 @@ owner:
   avatar: bio-photo.jpg
   bio: "Developer, theater person, generally useful person."
   email: "hbarudin@gmail.com"
-  disqus-shortname: 
+  disqus-shortname: #username
   twitter: "HannahBarudin"
   facebook: #username
   google:
@@ -42,9 +42,9 @@ owner:
   bing-verify: 
   github: "hbarudin"
   stackoverflow: "1582581"
-  linkedin: #username
+  linkedin: "hannah-barudin-5ba88815"
   xing: #username
-  instagram: #username
+  instagram: "theatergirl62"
   lastfm: #username
   tumblr: "theatergirl62"
   pinterest: #username
